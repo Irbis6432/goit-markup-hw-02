@@ -45,7 +45,8 @@ button {
    }
 
 .link:hover,
-.link:focus {color: var(--accent-color);}
+.link:focus{color: var(--accent-color)}
+.active{color: var(--accent-color)}
 
 
 /* Header */
