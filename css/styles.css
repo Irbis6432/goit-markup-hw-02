@@ -6,6 +6,7 @@
     --secondary-color: #757575;
     --footer-color: #2F303A;
     --color-about-us: #F5F4FA;
+    --color-tel-mail: rgba(255, 255, 255, 0.6);
     }
 
 
@@ -44,7 +45,7 @@ button {
    }
 
 .link:hover,
-.link:focus {text-decoration: underline solid var(--accent-color);}
+.link:focus {color: var(--accent-color);}
 
 
 /* Header */
@@ -65,6 +66,9 @@ button {
     
  }
 .header-phone {
+    color: var(--secondary-color);
+    }
+.header-email {
     color: var(--secondary-color);
     }
 
@@ -148,9 +152,11 @@ background-color: var(--accent-color);
 
 .footer-adress {
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
     
-    color: var(--color-light);
+    color: var(--color-tel-mail)
 }
 
 /*          ---------      PORTFOLIO --------                */
@@ -160,6 +166,8 @@ background-color: var(--accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    background: #F5F4FA;
+    border-radius: 4px;
     }
 
 .descript {
