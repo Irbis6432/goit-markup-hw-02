@@ -5,61 +5,62 @@
     --accent-color: #2196F3;
     --secondary-color: #757575;
     --footer-color: #2F303A;
-    --logo-text: 'Raleway'; sans-serif;
+    --color-about-us: #F5F4FA;
     }
 
 
 /* Global Styles */
 body {
     font-family: 'Roboto'; sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     
     color: var(--color-dak);}
+.link .list .title .about-us { 
+    text-transform: uppercase;
+}
+
+.title-fon {
+    background-color: var(--footer-color);
+}
  
-a {
+.link {
+    font-weight: 500;
     text-decoration: none;
      color: inherit;
     }
 
-ul {
+.list {
     list-style: none;
+.
 }
 button {
     color: inherit;
     font-family: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    font-size: inherit;
-
     border: 0;
+    border-radius: 4px;
     background-color: transparent;
 
     cursor: pointer;
-   
-}
-.menu-list: hover,
-.menu-list focus {
-    color: var(--accent-color);
-}
+   }
+
+.link:hover,
+.link:focus {text-decoration: underline solid var(--accent-color);}
 
 
 /* Header */
 
 .logo {
-    font-family: var(--logo-text);
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Raleway'; sans-serif;
     font-size: 26px;
     line-height: 1.19;
   
    }
-span {
+.logo-var {
     color: var(--accent-color);
 }
-.menu-list list {
+.menu-item {
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     
  }
@@ -75,7 +76,6 @@ font-size: 44px;
 line-height: 1.36;
 
 color: var(--color-light);
-background-color: var(--color-dark);
 }
 .hero-button {
 font-weight: 700;
@@ -94,11 +94,11 @@ background-color: var(--accent-color);
 /* priority */
 
 .priority {
+    font-weight: 700;
     line-height: 1.14;
     
  }
 .priority-text {
-    font-weight: 400;
     line-height: 1.71;
     
     color: var(--secondary-color);
@@ -107,9 +107,10 @@ background-color: var(--accent-color);
 /* -ABOUT-US */
 
 .about-us {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    
+}
  
 .personal {
     font-weight: 500;
@@ -125,42 +126,44 @@ background-color: var(--accent-color);
     
     color: var(--secondary-color);
 }
+.about-us-fon {
+    background: #F5F4FA;
+}
 
 /* Footer */
 
 .footer-logo {
-    font-family: var(--logo-text);
-    font-style: normal;
+    font-family: 'Raleway'; sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    
+        
     color: var(--color-light);
-    background-color: var(--footer-color);
 }
-span {
-    color: var(--accent-color);
+
+
+.footer-fon {
+    background-color: var(--footer-color);
 }
 
 .footer-adress {
-    font-weight: 400;
+    font-style: normal;
     line-height: 1.71;
     
     color: var(--color-light);
-    background-color: var(--footer-color);
 }
 
 /*          ---------      PORTFOLIO --------                */
 
 
-.moden-btn {
+.btn-portfolio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    
-}
+    }
 
 .descript {
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     
